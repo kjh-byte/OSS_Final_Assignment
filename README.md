@@ -16,3 +16,6 @@
 
 ```bash
 sudo docker-compose up --build -d
+
+## 📺 데모 영상
+https://youtu.be/zDpM7e00sis
