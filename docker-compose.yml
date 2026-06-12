@@ -1,12 +1,12 @@
 version: '3.8'
-
 services:
   back:
+    container_name: back  # 이름 고정!
     build: ./back
     ports:
       - "8000:8000"
-    
   front:
+    container_name: front # 이름 고정!
     build: ./front
     ports:
       - "8501:8501"
